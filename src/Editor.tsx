@@ -72,7 +72,7 @@ const Editor: React.FC<Props> = (
   return (
     <div>
       <div style={{ textAlign: "left" }}>
-        <button onClick={() => createNewNote()}>New</button>
+        <button onClick={() => createNewNote()}>New Todo</button>
       </div>
       <div>
         <input
